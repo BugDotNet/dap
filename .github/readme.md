@@ -1,21 +1,21 @@
-# {project}
+# Debug Adapter Protocol
 
 <!-- Do not put the link/image nested tags on new lines as that will count the links as having whitespace which changes the rendering -->
 
 <!-- Project badges -->
 <p align="center">
-  <a title="A link to the project's license file." href="https://github.com/BugDotNet/{project}/blob/main/license.md"><img alt="A status badge for the project's license." src="https://img.shields.io/badge/license-MIT-brightgreen"></a>
-  <a title="A link to the project's contributors" href="https://github.com/BugDotNet/{project}/graphs/contributors"><img alt="A status badge for the project's contributors." src="https://img.shields.io/github/contributors/BugDotNet/{project}"></a>
+  <a title="A link to the project's license file." href="https://github.com/BugDotNet/dap/blob/main/license.md"><img alt="A status badge for the project's license." src="https://img.shields.io/badge/license-MIT-brightgreen"></a>
+  <a title="A link to the project's contributors" href="https://github.com/BugDotNet/dap/graphs/contributors"><img alt="A status badge for the project's contributors." src="https://img.shields.io/github/contributors/BugDotNet/dap"></a>
   <a title="A link to the Bug.NET discussions" href="https://github.com/orgs/BugDotNet/discussions"><img alt="A status badge for the Bug.NET discussions." src="https://img.shields.io/github/discussions/BugDotNet/.github"></a>
   <!-- <br> --> <!-- Release badges - only uncomment once the first release is made -->
-  <!-- <a title="A link to the latest release" href="https://github.com/BugDotNet/{project}/releases/latest"><img alt="A status badge for the latest release." src="https://img.shields.io/github/v/release/BugDotNet/{project}"></a> -->
-  <!-- <a title="A link to the development commits" href="https://github.com/BugDotNet/{project}/commits/develop"><img alt="A status badge for the development commits since the last release." src="https://img.shields.io/github/commits-since/BugDotNet/{project}/latest/develop?label=commits%20since%20release"></a> -->
-  <!-- <a title="A link to the development commits" href="https://github.com/BugDotNet/{project}/commits/develop"><img alt="A status badge for the development commits since the last release." src="https://img.shields.io/github/last-commit/BugDotNet/{project}/develop?label=last%20development%20commit"></a> -->
+  <!-- <a title="A link to the latest release" href="https://github.com/BugDotNet/dap/releases/latest"><img alt="A status badge for the latest release." src="https://img.shields.io/github/v/release/BugDotNet/dap"></a> -->
+  <!-- <a title="A link to the development commits" href="https://github.com/BugDotNet/dap/commits/develop"><img alt="A status badge for the development commits since the last release." src="https://img.shields.io/github/commits-since/BugDotNet/dap/latest/develop?label=commits%20since%20release"></a> -->
+  <!-- <a title="A link to the development commits" href="https://github.com/BugDotNet/dap/commits/develop"><img alt="A status badge for the development commits since the last release." src="https://img.shields.io/github/last-commit/BugDotNet/dap/develop?label=last%20development%20commit"></a> -->
 </p>
 
 <!-- Project NuGet packages - delete section if it won't be needed -->
 <!--- <p align="center">
-  <a title="A link to the latest version of the OwlDomain.BugNet.{nuget} NuGet package." href="https://www.nuget.org/packages/OwlDomain.BugNet.{nuget}"><img alt="A status badge for the latest version of the OwlDomain.BugNet.{nuget} Nuget package for the project." src="https://img.shields.io/nuget/v/OwlDomain.BugNet.{nuget}?logo=nuget&label={nuget}"></a>
+  <a title="A link to the latest version of the OwlDomain.BugNet.DAP NuGet package." href="https://www.nuget.org/packages/OwlDomain.BugNet.DAP"><img alt="A status badge for the latest version of the OwlDomain.BugNet.DAP Nuget package for the project." src="https://img.shields.io/nuget/v/OwlDomain.BugNet.DAP?logo=nuget&label=DAP"></a>
 </p> -->
 
 <p align="center"> <!-- Organisation -->
@@ -27,25 +27,12 @@
 
 ---
 
-<!-- Fill in the main description -->
+This is a project to create a C# implementation for the "Debug Adapter Protocol"
+([DAP](https://microsoft.github.io/debug-adapter-protocol/)).
 
-This is a general project template for the Bug.NET organisation, to use it you
-should:
-
-1. Replace `{project}` the GitHub repository name for this project.
-2. Change the project's display name in the header at the top of this file.
-3. Replace `{nuget}` with the name of the main NuGet package, the
-   `OwlDomain.BugNet.` prefix will already be there.
-4. Remove the `Project NuGet packages` badge section above this, if it won't
-   ever be required for this project.
-5. Replace this section with the main description of the project.
-6. Make sure that the `develop` branch exists, and that the main branch
-   is called `main`.
-7. Make sure that this repository is properly linked with the necessary
-   projects.
-8. Make sure all the project settings are correct.
-9. Make sure the repository is explained on the
-   [main profile project overview](https://github.com/BugDotNet#current-projects)
+This project is primarily meant for use with the
+[Bug.NET Debugger](https://github.com/BugDotNet/debugger), however there is
+nothing stopping you from using it for your own needs.
 
 
 <!-- ## Installation -->
@@ -57,16 +44,16 @@ should:
 ## Development
 
 Currently this project is being developed on the
-[`develop`](https://github.com/BugDotNet/{project}/tree/develop)
+[`develop`](https://github.com/BugDotNet/dap/tree/develop)
 branch, changes will be merged to the
-[`main`](https://github.com/BugDotNet/{project}/tree/main)
+[`main`](https://github.com/BugDotNet/dap/tree/main)
 branch *(the default one)* whenever there is a new release.
 
 
 ## License
 
 This project (the source, the release files, e.t.c) is released under the
-[MIT license](https://github.com/BugDotNet/{project}/blob/main/license.md).
+[MIT license](https://github.com/BugDotNet/dap/blob/main/license.md).
 
 
 ## Community
