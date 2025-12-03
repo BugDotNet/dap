@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<!-- Project -->
-  <PropertyGroup Label="project">
-    <TargetFrameworks>net8.0;net7.0;net6.0;netstandard2.1</TargetFrameworks>
+	<PropertyGroup Label="project">
+		<TargetFrameworks>net8.0;net7.0;net6.0;netstandard2.1</TargetFrameworks>
 		<LangVersion>13</LangVersion>
-    <Nullable>enable</Nullable>
+		<Nullable>enable</Nullable>
 
 		<AssemblyName>OwlDomain.BugNet.DAP</AssemblyName>
 		<RootNamespace>OwlDomain.BugNet.DAP</RootNamespace>
@@ -17,7 +17,7 @@
 
 		<IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
 		<IsTrimmable Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net6.0'))">true</IsTrimmable>
-  </PropertyGroup>
+	</PropertyGroup>
 
 	<!-- NuGet package -->
 	<PropertyGroup Label="nuget">
