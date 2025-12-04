@@ -33,9 +33,4 @@
 		<PackageReleaseNotes>$([System.IO.File]::ReadAllText("$(MSBuildProjectDirectory)/meta/release-notes.txt"))</PackageReleaseNotes>
 	</PropertyGroup>
 
-	<!-- Continuous integration -->
-	<PropertyGroup Label="ci">
-		<ContinuousIntegrationBuild Condition="'$(CI)' == 'true' Or '$(CI)' == '1'">true</ContinuousIntegrationBuild>
-	</PropertyGroup>
-
 </Project>
